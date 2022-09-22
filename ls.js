@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-module.export = function() {
+module.exports = function() {
     fs.readdir('./', 'utf8', (err, files) => {
         if (err) {
             throw err;
